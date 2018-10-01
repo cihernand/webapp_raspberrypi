@@ -1,0 +1,2 @@
+# website_rasppi_cybersecurity
+Low cost software and hardware creates the opportunity to bring empowering technology to people with low-budget. In this project I hope the people  learn to install an operating system and the software needed to design a website using a raspberry pi. Prototyped source code to design the website will be tested in advance to be re-used during the session. The structure of the code will be modular and flexible to incorporate people ideas.
