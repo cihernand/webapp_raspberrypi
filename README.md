@@ -15,10 +15,10 @@ http://flask.pocoo.org/
 #Tutorial to create a webserver with Flask, code explained step by step: \
 https://www.youtube.com/watch?v=zRwy8gtgJ1A
 
-#Visit this Github repository to download the code for the Flask application: \\
+#Visit this Github repository to download the code for the Flask application: \
 https://github.com/bradtraversy/myflaskapp
 
-#Virtual enviroment explanation
+#Virtual enviroment explanation \
 https://www.youtube.com/watch?v=N5vscPTWKOk
 
 Installation requirements:
