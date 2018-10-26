@@ -19,7 +19,7 @@ http://flask.pocoo.org/
 https://www.youtube.com/watch?v=zRwy8gtgJ1A
 
 #### Visit this Github repository to download the code for the Flask application: 
-Developer site: https://github.com/bradtraversy/myflaskapp
+Developer site: https://github.com/bradtraversy/myflaskapp \
 Code edited: https://github.com/cihernand/myflaskapp
 
 #### Virtual enviroment explanation 
