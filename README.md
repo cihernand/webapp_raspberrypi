@@ -116,6 +116,10 @@ python app.py
 ##### SQL injections tutorial 
 https://www.go4expert.com/articles/complete-mysql-injection-newbies-t20438/
 
+### MOZFEST EXERCISE
+#### TEST THE FOLLOWING QUERIES TO THE DATABASE  
+##### What will be the output of the following MYSQL query?
+
 ```mysql
 # SELECT DATABASE NAME
 USE myflaskapp;
@@ -128,6 +132,17 @@ SELECT * from  users WHERE username='a' or 1=1; -- AND password=''
 SELECT * from users  WHERE username='a' or 1=1;
 
 ```
+
+##### How  can you insert a username using the webserver that executes the code from above?
+[Hints:]
+
+```sh
+username:' or 1='1  password:' or 1='1
+username:' or '1'='1'  password:' or '1'='1'
+username:or 1=1  password:or 1=1
+
+```
+
 ### MOZFEST SESSION CHALLENGES
 Identify the flask modules that remove special characters from the MYSQL injection. \
 Identify what do passlib and sha256_crypt do with the passwords from the users. \
