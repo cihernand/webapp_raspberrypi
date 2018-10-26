@@ -26,13 +26,13 @@ Installation requirements:
 
 #You may need to install the Python and MySQL development headers and libraries like so: \
 sudo apt-get install python3-dev \
-sudo apt-get install  libmysqlclient-dev  mysql-server \
+sudo apt-get install  libmysqlclient-dev  mysql-server 
 
 
 #Install Virtual Environment
-sudo apt install virtualenv
-Create Virtual Environment
-virtualenv   myapp  -p [insert path to python3]
+sudo apt install virtualenv \
+Create Virtual Environment \
+virtualenv   myapp  -p [insert path to python3] 
 
 #Activate Virtual Environment
 source myapp/bin/activate
