@@ -7,10 +7,12 @@ We expect that the audience take this exercise as a initial step to think about 
 ### Project tools: Python v3, Flask and MYSQL
 
 
-### Raspberry project 
+### Raspberry Pi project
+Raspberry Pi  is a small and affordable computer that you can use to learn programming. \
 https://www.raspberrypi.org/
 
 ### Flask project 
+Flask is a Python web framework built with a small core and easy-to-extend philosophy. \
 http://flask.pocoo.org/
 
 #### Tutorial to create a webserver with Flask, code explained step by step: 
