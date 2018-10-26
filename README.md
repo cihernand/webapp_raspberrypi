@@ -116,6 +116,18 @@ python app.py
 ##### SQL injections tutorial 
 https://www.go4expert.com/articles/complete-mysql-injection-newbies-t20438/
 
+```mysql
+# SELECT DATABASE NAME
+USE myflaskapp;
+
+# GET MYSQL VERSION 
+SELECT @@version;
+
+# TEST EXAMPLE INJECTION INSIDE MYSQL
+SELECT * from  users WHERE username='a' or 1=1; -- AND password=''
+SELECT * from users  WHERE username='a' or 1=1;
+
+```mysql
 
 
 
