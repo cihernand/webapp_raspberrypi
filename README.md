@@ -48,10 +48,16 @@ pip install passlib \
 pip install --upgrade setuptools \
 pip freeze > requirements.txt
 
+#Commands to run the application
 
-#Access MySQL \
+#Access MySQL & create the database for the website \
 mysql -u [insert username] -p [insert password]
 
+#Run Flask application \
+python app.py 
+
+#Open your web-browser with the following URL\
+ http://127.0.0.1:5000/ 
 
 
 
