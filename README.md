@@ -76,9 +76,13 @@ SHOW TABLES;
 
 ##### Change Python Code app.py \
 
-app.config['MYSQL_HOST'] = 'localhost' \
-app.config['MYSQL_USER'] = 'INSERT YOUR MYSQL USERNAME HERE' \
+```python
+
+app.config['MYSQL_HOST'] = 'localhost' 
+app.config['MYSQL_USER'] = 'INSERT YOUR MYSQL USERNAME HERE' 
 app.config['MYSQL_PASSWORD'] = 'INSERT YOUR MYSQL PASSWORD HERE'
+
+```
 
 ##### Run Flask application \
 python app.py 
