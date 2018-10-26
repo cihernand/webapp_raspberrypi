@@ -25,7 +25,7 @@ Installation requirements:
 
 ##### 1. You may need to install the Python and MySQL development headers and libraries like so: 
 
-```sh
+``` console
 sudo apt-get install python3-dev 
 sudo apt-get install  libmysqlclient-dev  mysql-server 
 ```
