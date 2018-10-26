@@ -128,10 +128,10 @@ SELECT * from  users WHERE username='a' or 1=1; -- AND password=''
 SELECT * from users  WHERE username='a' or 1=1;
 
 ```
-### CHALLENGES
-Identify the flask modules that remove special characters from the MYSQL injection.
-Identify what do passlib and sha256_crypt do with the passwords from the users.
-Hack the site.
+### MOZFEST SESSION CHALLENGES
+Identify the flask modules that remove special characters from the MYSQL injection. \
+Identify what do passlib and sha256_crypt do with the passwords from the users. \
+Hack the site. \
 
 
 
