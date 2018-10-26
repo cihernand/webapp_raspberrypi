@@ -23,37 +23,54 @@ https://www.youtube.com/watch?v=N5vscPTWKOk
 
 Installation requirements:
 
-##### 1. You may need to install the Python and MySQL development headers and libraries like so: \
+##### 1. You may need to install the Python and MySQL development headers and libraries like so: 
 
 ```sh
-sudo apt-get install python3-dev \
+sudo apt-get install python3-dev 
 sudo apt-get install  libmysqlclient-dev  mysql-server 
 ```
 
-##### 2. Install Virtual Environment \
-sudo apt install virtualenv \
-Create Virtual Environment \
+##### 2. Install Virtual Environment 
+```sh
+sudo apt install virtualenv 
+Create Virtual Environment 
 virtualenv   myapp  -p [insert path to python3] 
+```
 
-##### Activate Virtual Environment \
+##### Activate Virtual Environment 
+
+```sh
 source myapp/bin/activate
+```
 
-###### Install Flask and MySQL python modules \
-pip install Flask \
-pip install mysql-python \
-pip install mysqlclient \
+###### Install Flask and MySQL python modules 
+
+```sh
+pip install Flask 
+pip install mysql-python 
+pip install mysqlclient 
 pip install flask-mysqldb
 
-###### Install Forms and Hashing passwords python modules \
-pip install wtforms \
-pip install passlib \
-pip install --upgrade setuptools \
+```
+
+###### Install Forms and Hashing passwords python modules 
+
+```sh
+
+pip install wtforms 
+pip install passlib 
+pip install --upgrade setuptools 
 pip freeze > requirements.txt
+
+```
 
 ## Commands to run the application
 
-##### Access MySQL & create the database for the website \
+##### Access MySQL & create the database for the website 
+
+```sh
 mysql -u [insert username] -p [insert password]
+```
 
 ```mysql
 
@@ -73,7 +90,6 @@ create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 
 SHOW TABLES;
 
-
 ```
 
 ##### Change Python Code app.py with your MySQL credentials
@@ -86,13 +102,17 @@ app.config['MYSQL_PASSWORD'] = 'INSERT YOUR MYSQL PASSWORD HERE'
 
 ```
 
-##### Run Flask application \
+##### Run Flask application 
+
+```sh
 python app.py 
 
-##### Open your web-browser with the following URL\
+```
+
+##### Open your web-browser with the following URL
  http://127.0.0.1:5000/ 
 
-##### SQL injections tutorial \
+##### SQL injections tutorial 
 https://www.go4expert.com/articles/complete-mysql-injection-newbies-t20438/
 
 
