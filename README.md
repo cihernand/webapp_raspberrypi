@@ -59,7 +59,8 @@ python app.py
 #Open your web-browser with the following URL\
  http://127.0.0.1:5000/ 
 
-
+#SQL injections tutorial
+https://www.go4expert.com/articles/complete-mysql-injection-newbies-t20438/
 
 
 
