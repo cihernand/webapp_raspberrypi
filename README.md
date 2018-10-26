@@ -5,8 +5,12 @@ We expect that the audience take this exercise as a initial step to think about 
 
 #Project tools: Python v3, Flask and MYSQL
 
+
 #Raspberry project
 https://www.raspberrypi.org/
+
+#Flask project
+http://flask.pocoo.org/
 
 #Webserver Tutorial: 
 Youtube
@@ -24,12 +28,10 @@ Installation requirements:
 sudo apt-get install python3-dev 
 sudo apt-get install  libmysqlclient-dev  mysql-server
 
-Virtual environment
-Environment explanation
-https://www.youtube.com/watch?v=N5vscPTWKOk
 
 #Install Virtual Environment
 sudo apt install virtualenv
+Create Virtual Environment
 virtualenv   myapp  -p [insert path to python3]
 
 #Activate Virtual Environment
