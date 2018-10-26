@@ -53,6 +53,13 @@ pip freeze > requirements.txt
 #Access MySQL & create the database for the website \
 mysql -u [insert username] -p [insert password]
 
+# Change Python Code app.py \
+
+app.config['MYSQL_HOST'] = 'localhost' \
+app.config['MYSQL_USER'] = 'INSERT YOUR MYSQL USERNAME HERE' \
+app.config['MYSQL_PASSWORD'] = 'INSERT YOUR MYSQL PASSWORD HERE'
+
+
 #Run Flask application \
 python app.py 
 
