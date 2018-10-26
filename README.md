@@ -24,9 +24,9 @@ https://www.youtube.com/watch?v=N5vscPTWKOk
 
 Installation requirements:
 
-#You may need to install the Python and MySQL development headers and libraries like so:
-sudo apt-get install python3-dev 
-sudo apt-get install  libmysqlclient-dev  mysql-server
+#You may need to install the Python and MySQL development headers and libraries like so: \newline
+sudo apt-get install python3-dev \newline
+sudo apt-get install  libmysqlclient-dev  mysql-server \newline
 
 
 #Install Virtual Environment
