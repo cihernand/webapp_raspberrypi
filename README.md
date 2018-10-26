@@ -29,28 +29,28 @@ sudo apt-get install python3-dev \
 sudo apt-get install  libmysqlclient-dev  mysql-server 
 
 
-#Install Virtual Environment
+#Install Virtual Environment \
 sudo apt install virtualenv \
 Create Virtual Environment \
 virtualenv   myapp  -p [insert path to python3] 
 
-#Activate Virtual Environment
+#Activate Virtual Environment \
 source myapp/bin/activate
 
-#Install Flask and MySQL python modules
-pip install Flask
-pip install mysql-python
-pip install mysqlclient
+#Install Flask and MySQL python modules \
+pip install Flask \
+pip install mysql-python \
+pip install mysqlclient \
 pip install flask-mysqldb
 
-#Install Forms and Hashing passwords python modules
-pip install wtforms
-pip install passlib
-pip install --upgrade setuptools
+#Install Forms and Hashing passwords python modules \
+pip install wtforms \
+pip install passlib \
+pip install --upgrade setuptools \
 pip freeze > requirements.txt
 
 
-#Access MySQL
+#Access MySQL \
 mysql -u [insert username] -p [insert password]
 
 
