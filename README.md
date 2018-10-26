@@ -12,4 +12,48 @@ https://www.raspberrypi.org/
 Youtube
 https://www.youtube.com/watch?v=zRwy8gtgJ1A
 
+#Download webserver code:
+https://github.com/bradtraversy/myflaskapp
+
+#Virtual enviroment explanation
+https://www.youtube.com/watch?v=N5vscPTWKOk
+
+Installation requirements:
+
+#You may need to install the Python and MySQL development headers and libraries like so:
+sudo apt-get install python3-dev 
+sudo apt-get install  libmysqlclient-dev  mysql-server
+
+Virtual environment
+Environment explanation
+https://www.youtube.com/watch?v=N5vscPTWKOk
+
+#Install Virtual Environment
+sudo apt install virtualenv
+virtualenv   myapp  -p [insert path to python3]
+
+#Activate Virtual Environment
+source myapp/bin/activate
+
+#Install Flask and MySQL python modules
+pip install Flask
+pip install mysql-python
+pip install mysqlclient
+pip install flask-mysqldb
+
+#Install Forms and Hashing passwords python modules
+pip install wtforms
+pip install passlib
+pip install --upgrade setuptools
+pip freeze > requirements.txt
+
+
+#Access MySQL
+mysql -u [insert username] -p [insert password]
+
+
+
+
+
+
 
