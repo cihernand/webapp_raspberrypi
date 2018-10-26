@@ -74,7 +74,7 @@ SHOW TABLES;
 
 ```
 
-##### Change Python Code app.py \
+##### Change Python Code app.py with your MySQL credentials
 
 ```python
 
