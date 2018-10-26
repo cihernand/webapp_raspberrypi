@@ -1,4 +1,4 @@
-# website_rasppi_cybersecurity
+# Designing your own website and running it on a raspberry pi. What cybersecurity tools do you need to consider?
 Low cost software and hardware creates the opportunity to bring empowering technology to people with low-budget. In this project I hope the people  learn to install an operating system and the software needed to design a website using a raspberry pi. Prototyped source code to design the website will be tested in advance to be re-used during the session. The structure of the code will be modular and flexible to incorporate people ideas.
 
-We expect that the audience take this exercise as a initial step to think about how to create secure websites and which tools exist to prevent cyber attacks, spam, online censorship and monitor the unusual virtual traffic going into the website. By learning the vulnerabilities of virtual websites we could discuss how sites with sensitive data such as personal banking/DNA data services or digital blogs of journalist or activists protect themselves in the cyberspace.
+We expect that the audience take this exercise as a initial step to think about how to create secure websites and which tools exist to prevent hacks.  After having an introduction to the vulnerabilities of  websites we could discuss how sites with sensitive data protect themselves in the cyberspace.
