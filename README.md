@@ -6,17 +6,16 @@ We expect that the audience take this exercise as a initial step to think about 
 #Project tools: Python v3, Flask and MYSQL
 
 
-#Raspberry project
+#Raspberry project \
 https://www.raspberrypi.org/
 
-#Flask project
+#Flask project \
 http://flask.pocoo.org/
 
-#Webserver Tutorial: 
-Youtube
+#Tutorial to create a webserver with Flask, code explained step by step: \
 https://www.youtube.com/watch?v=zRwy8gtgJ1A
 
-#Download webserver code:
+#Visit this Github repository to download the code for the Flask application: \\
 https://github.com/bradtraversy/myflaskapp
 
 #Virtual enviroment explanation
