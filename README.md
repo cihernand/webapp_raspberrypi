@@ -75,6 +75,16 @@ pip freeze > requirements.txt
 ```sh
 mysqladmin -u root [insert password]
 mysql -u [insert username] -p [insert password]
+
+#If the instructions above do not work  try
+
+``` sh
+sudo mysql -u root
+```
+``` mysql
+SELECT User, Host, plugin FROM mysql.user;
+UPDATE mysql.user SET plugin = 'mysql_native_password' WHERE user = 'root' AND plugin = 'unix_socket';
+FLUSH PRIVILEGES;
 ```
 
 ```mysql
