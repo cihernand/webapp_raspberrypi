@@ -73,6 +73,7 @@ pip freeze > requirements.txt
 ##### Access MySQL & create the database for the website 
 
 ```sh
+mysqladmin -u root [insert password]
 mysql -u [insert username] -p [insert password]
 ```
 
