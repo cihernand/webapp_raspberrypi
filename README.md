@@ -75,8 +75,8 @@ pip freeze > requirements.txt
 ```sh
 mysqladmin -u root [insert password]
 mysql -u [insert username] -p [insert password]
-
-#If the instructions above do not work  try
+```
+If the instructions above do not work  try
 
 ``` sh
 sudo mysql -u root
