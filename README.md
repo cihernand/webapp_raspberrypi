@@ -22,6 +22,11 @@ https://www.youtube.com/watch?v=zRwy8gtgJ1A
 Developer site: https://github.com/bradtraversy/myflaskapp \
 Code edited: https://github.com/cihernand/myflaskapp
 
+``` console
+sudo apt-get install git
+git clone https://github.com/cihernand/myflaskapp
+```
+
 #### Virtual enviroment explanation 
 https://www.youtube.com/watch?v=N5vscPTWKOk
 
