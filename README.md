@@ -76,16 +76,22 @@ pip freeze > requirements.txt
 mysqladmin -u root [insert password]
 mysql -u [insert username] -p [insert password]
 ```
-If the instructions above do not work  try
+If the instructions above do not work  try:
 
 ``` sh
 sudo mysql -u root
+
 ```
+
+Change the plugin for user root from unix_socket into mysql_native_password:
+
 ``` mysql
 SELECT User, Host, plugin FROM mysql.user;
 UPDATE mysql.user SET plugin = 'mysql_native_password' WHERE user = 'root' AND plugin = 'unix_socket';
 FLUSH PRIVILEGES;
 ```
+
+Once you can login to MySQL create the Database myflaskapp with the following commands: 
 
 ```mysql
 
